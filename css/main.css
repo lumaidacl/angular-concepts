@@ -1,0 +1,22 @@
+body{
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+  max-width: 900px;
+  margin: 0 auto;
+}
+.concept{
+  display: flex;
+  margin-bottom: 3em;
+  align-items: center;
+}
+.concept__information{
+  flex: 1;
+}
+.concept__picture{
+  flex: 1;
+}
+.concept__picture img{
+  width: 100%;
+}

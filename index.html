@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="learning-angular">
+<head>
+  <meta charset="UTF-8">
+  <title>Learning Angular</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div ng-controller="ConceptController as concepto"><!--crear una nueva instancia de ConceptController-->
+      <article ng-repeat="concept in concepto.concepts" class="concept">
+        <div class="concept__information">
+          <h2 class="concept__title">{{ concept.title | uppercase }}</h2>
+          <p class="concept__description">{{ concept.description }}</p>
+        </div>
+        <figure class="concept__picture">
+          <img ng-src="{{ concept.image }}" alt="{{ concept.title }}">
+        </figure>
+      </article>
+    </div>
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/concept.controller.js"></script>
+</body>
+</html>
