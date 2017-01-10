@@ -6,6 +6,9 @@ body{
   max-width: 900px;
   margin: 0 auto;
 }
+.about-angular__title{
+  text-align: center;
+}
 .concept{
   display: flex;
   margin-bottom: 3em;
