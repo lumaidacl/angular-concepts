@@ -111,6 +111,21 @@ function ConceptController(){
       image: 'images/factory.png'
     },
     {
+      title: 'ng-options',
+      description: 'En Angular diferentes valores en un módulo pueden mostrarse en si',
+      image: 'images/.png'
+    },
+    {
+      title: 'ng-disabled',
+      description: 'Validar elementos individuales y todo el "form" la directiva contiene la expresión que la evalúa como T o F',
+      image: 'images/disabled.png'
+    },
+    {
+      title: 'data-driven-validation',
+      description: 'Crear forms poderosos, que se comunican con otros componentes, pueden actualizar determinadas piezas de datos y mostrar todas las validaciones',
+      image: 'images/data-driven.png'
+    },
+    {
       title: 'filters',
       description: 'Son funciones que permiten añadir o cambiar el aspecto(o formato) de un valor',
       image: 'images/filter.png'
