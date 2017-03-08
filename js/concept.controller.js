@@ -7,7 +7,7 @@ function ConceptController(){
     },
     {
       title: 'controller',
-      description: 'Esta relacionado con la lógica de la vista(HTML) y enlaza propiedades a la vista (HTML)',
+      description: 'Esta relacionado con la lógica de la vista(HTML) y enlaza propiedades a la vista (HTML), bind es el enlace entre la función de propiedades y métodos',
       image: 'images/controller.png'
     },
     {
@@ -113,7 +113,7 @@ function ConceptController(){
     {
       title: 'ng-options',
       description: 'En Angular diferentes valores en un módulo pueden mostrarse en si',
-      image: 'images/.png'
+      image: 'images/ng-options.png'
     },
     {
       title: 'ng-disabled',
@@ -132,19 +132,19 @@ function ConceptController(){
     },
     {
       title: 'directives',
-      description: 'Adjuntan y/o modifican un comportamiento a un elemento del DOM',
+      description: 'Añaden y/o modifican un comportamiento a un elemento del DOM',
       image: 'images/directivas.png'
     },
     {
       title: 'services',
-      description: 'Contiene la lógica del negocio, se comunica con el backend',
+      description: 'Contiene la lógica del negocio, se comunica con el backend como ser RESTFUL API (url) utilizando los verbos http, o web service o puede permitir enlazar a algún servicio',
       image: 'images/services.png'
     },
     {
       title: 'components',
-      description: 'Enlazan y muestran las propiedades del controlador',
+      description: 'Es el que imprime el html en la vista, dibuja el template en el browser. Enlazan y muestran las propiedades del controlador',
       image: 'images/component.png'
-    },
+    }
   ];
 }
 

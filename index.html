@@ -11,7 +11,7 @@
   <section class="about-angular">
     <div class="wrapper">
       <h2 class="about-angular__title">Conceptos básicos de Angular</h2>
-      <div ng-controller="ConceptController as concepto"> <!--crear una nueva instancia de ConceptController-->
+      <div ng-controller="ConceptController as concepto">
         <article ng-repeat="concept in concepto.concepts" class="concept">
           <div class="concept__information">
             <h2 class="concept__title">{{ concept.title | uppercase }}</h2>
